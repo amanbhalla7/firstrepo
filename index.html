@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WOW PIZZAaaa</title>
+<link rel="shortcut icon" type="text/css" href="images/favicon (1).ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: dark black;
+	font-size:28px;
+	background-image:url(images/pizza.jpg);
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: white;
+    padding: 24px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background:black;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+P{
+font-size:24px;
+color: brown;
+}
+img{
+margin-left:20px;
+padding-top:10px;
+}
+</style>
+</head>
+<body>
+<!-- Header -->
+<div class="header">
+  <h1><b>WOW PIZZAaaaaaaa.</b></h1>
+  <h4 align="center">Since2001</h4>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="menu.html" target="page">Menu</a>
+  <a href="aboutus.html" target="page">About Us</a>
+  <a href="services.html" target="page">Services</a> 
+  <a href="contactus.html" target="page">Contact Us</a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+  <img src="images/handshake2.jpg" height="300" width="350">
+  <p align="left">Trust on our products nd make new connections.</p>
+  <img src="images/quality-mark.jpg" height="300" width="350">
+  <p align="left">Eat what you like , we serve our best quality</p>
+   </div>   
+  <div class="main">
+   <iframe src="menu.html" name="page" height="700" width="100%" frameborder="0"></iframe>   
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+   <br><br>
+	<h1 align="center" style="color:white;"><b>Design & Developed by</b></h1>
+	<h2 align="center" style="color:white;"><b>Aman bhalla</b></h2>
+</div>
+
+</body>
+</html>
